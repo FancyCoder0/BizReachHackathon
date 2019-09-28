@@ -108,7 +108,7 @@ def getPr(user, state):
 
     ''' % {'prState': state, 'user': user}
 
-    headers = {"Authorization": "token 5d332beb12ce38a76164de3d893cd47ef810c682"}
+    headers = {"Authorization": "token 2c04"}
     request = requests.post('https://api.github.com/graphql', json={'query': query}, headers=headers)
     pr = request.json()
 

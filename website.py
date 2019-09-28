@@ -83,7 +83,7 @@ def get_line_data():
 
     data['datasets'] = [t]
 
-    # print(data)
+    print(data)
     return jsonify(data)
 
 

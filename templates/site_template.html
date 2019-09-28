@@ -482,7 +482,6 @@
     $.getJSON('/_get_line_data', {
           username: "{{ username }}" ,
       }, function(line_data) {
-        //line
         var ctxL = document.getElementById("lineChart").getContext('2d');
         var myLineChart = new Chart(ctxL, {
             type: 'line',

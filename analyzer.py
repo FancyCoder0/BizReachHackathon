@@ -50,4 +50,4 @@ def get_readability(username):
             ret.append([repo, t[0], t[1]])
     return ret
 
-print(get_keywords('FancyCoder0'))
+# print(get_keywords('FancyCoder0'))
